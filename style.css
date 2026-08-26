@@ -1,1 +1,26 @@
-
+*{
+    margin: 0%;
+    padding: 0%;
+}
+header{
+    background-color: rgb(63, 31, 114);
+    padding: 30px;
+    color: aliceblue;  
+}
+.navegacao{
+    display: flex;
+    align-items: center;
+}
+.txt{
+    text-decoration: none;
+    padding-left: 300px;
+    color: aliceblue;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 17px;
+}
+h1{
+    font-size: 50px;
+}
+.banner{
+    
+}

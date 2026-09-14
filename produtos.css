@@ -25,3 +25,13 @@ h1{
 .txt2{
     margin: 0 0 0 50px;
 }
+#Categoria1{
+    color: rgb(63, 31, 114);
+    font-size: 30px;
+    padding-left: 50px;
+}
+#categoria{
+    text-decoration: none;
+    padding-left: 30px;
+    marker: none;
+}

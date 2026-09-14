@@ -10,16 +10,30 @@ header{
 .navegacao{
     display: flex;
     align-items: center;
+    justify-content: space-around;
 }
 .txt{
     text-decoration: none;
-    padding-left: 300px;
+    padding-left: 200px;
     color: aliceblue;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
     font-size: 17px;
 }
 h1{
     font-size: 50px;
+}
+.txt2{
+    margin: 0 0 0 50px;
+}
+#Categoria1{
+    color: rgb(63, 31, 114);
+    font-size: 30px;
+    padding-left: 50px;
+}
+#categoria{
+    text-decoration: none;
+    padding-left: 30px;
+    marker: none;
 }
 .banner{
     width: 100%;

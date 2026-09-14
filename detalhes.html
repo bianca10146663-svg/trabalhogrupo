@@ -1,26 +1,62 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Detalhes</title>
     <link rel="stylesheet" href="detalhes.css">
 </head>
+
 <body>
     <header>
-       <div class="navegacao">
-         <h1 class="cabecalho">TechStore<svg xmlns="http://www.w3.org/2000/svg" width="35" height="35" fill="currentColor" class="bi bi-cart3" viewBox="0 0 16 16">
-         <path d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .49.598l-1 5a.5.5 0 0 1-.465.401l-9.397.472L4.415 11H13a.5.5 0 0 1 0 1H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5M3.102 4l.84 4.479 9.144-.459L13.89 4zM5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4m7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4m-7 1a1 1 0 1 1 0 2 1 1 0 0 1 0-2m7 0a1 1 0 1 1 0 2 1 1 0 0 1 0-2"/>
-         </svg></h1>
-         <nav>
-              <a href="/inicio.html" class="txt">Home</a> 
-              <a href="/produtos.html" class="txt">Produtos</a>
-              <a href="" class="txt">Sobre</a>
-              <a href="/detalhes.html" class="txt">Contato</a>          
-         </nav>
-       </div>
+        <div class="navegacao">
+            <h1 class="cabecalho">TechStore<svg xmlns="http://www.w3.org/2000/svg" width="35" height="35"
+                    fill="currentColor" class="bi bi-cart3" viewBox="0 0 16 16">
+                    <path
+                        d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .49.598l-1 5a.5.5 0 0 1-.465.401l-9.397.472L4.415 11H13a.5.5 0 0 1 0 1H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5M3.102 4l.84 4.479 9.144-.459L13.89 4zM5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4m7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4m-7 1a1 1 0 1 1 0 2 1 1 0 0 1 0-2m7 0a1 1 0 1 1 0 2 1 1 0 0 1 0-2" />
+                </svg></h1>
+            <nav>
+                <a href="/inicio.html" class="txt">Home</a>
+                <a href="/produtos.html" class="txt">Produtos</a>
+                <a href="" class="txt">Sobre</a>
+                <a href="/detalhes.html" class="txt">Contato</a>
+            </nav>
+        </div>
     </header>
+    <main class="produto-container">
+        <section class="produto-detalhes"> <!-- Imagem do produto -->
+            <div class="produto-imagem"> <img src="produto.jpg" alt="Imagem do produto"> </div> <!-- Informações -->
+            <div class="produto-info"> <span class="categoria">Eletrônicos</span>
+                <h1>Nome do Produto</h1>
+                <div class="avaliacao"> ★★★★★ <span>4,8 (120 avaliações)</span> </div>
+                <pg> Este produto possui alta qualidade, ótimo desempenho e um design moderno. Ideal
+                    para quem procura praticidade, conforto e tecnologia. </p>
+                <div class="preco"> <span>Por apenas</span> <strong>R$ 199,90</strong> </div>
+                <div class="quantidade"> <label for="quantidade">Quantidade:</label> <input type="number"
+                        id="quantidade" value="1" min="1"> </div>
+                <div class="botoes"> <button class="comprar"> Comprar agora </button> <button class="carrinho">
+                        Adicionar ao carrinho </button> </div>
+            </div>
+        </section>
+        <section class="descricao-completa">
+            <h2>Descrição do produto</h2>
+            <p> Conheça todos os detalhes deste produto. Ele foi desenvolvido pensando em oferecer qualidade, segurança
+                e praticidade. Possui materiais resistentes e acabamento moderno. </p>
+        </section> 
+        <section class="especificacoes">
+            <h2>Especificações técnicas</h2>
+            <div class="tabela">
+                <div> <strong>Marca</strong> <span>Nome da marca</span> </div>
+                <div> <strong>Modelo</strong> <span>ABC-123</span> </div>
+                <div> <strong>Cor</strong> <span>Roxo</span> </div>
+                <div> <strong>Peso</strong> <span>1,5 kg</span> </div>
+                <div> <strong>Dimensões</strong> <span>30 × 20 × 10 cm</span> </div>
+                <div> <strong>Garantia</strong> <span>12 meses</span> </div>
+            </div>
+        </section>
+    </main>
 
-    
 </body>
+
 </html>
